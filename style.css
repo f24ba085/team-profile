@@ -7,6 +7,12 @@ html {
 * {
     box-sizing: border-box;
 }
+body {
+  background-color: gray; /* デフォルトの背景色 */
+  background-image: linear-gradient(to bottom, blue, lightgreen); /* 上から下へのグラデーション */
+  background-repeat: no-repeat; /* グラデーションを繰り返さない */
+  background-attachment: fixed; /* スクロールしても固定 */
+}
 
 body {
     margin: 0;
