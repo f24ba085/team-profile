@@ -8,10 +8,10 @@ html {
     box-sizing: border-box;
 }
 body {
-  background-color: gray; /* デフォルトの背景色 */
-  background-image: linear-gradient(to bottom, blue, lightgreen); /* 上から下へのグラデーション */
-  background-repeat: no-repeat; /* グラデーションを繰り返さない */
-  background-attachment: fixed; /* スクロールしても固定 */
+    background-color: gray; /* デフォルトの背景色 */
+    background-image: linear-gradient(to bottom, blue, lightgreen); /* 上から下へのグラデーション */
+    background-repeat: no-repeat; /* グラデーションを繰り返さない */
+    background-attachment: fixed; /* スクロールしても固定 */
 }
 
 body {
@@ -51,7 +51,10 @@ img {
 
 /* 自己紹介ページ特有のスタイル */
 div {
-    background-color: #ffffff;
+    background-color: gray; /* デフォルトの背景色 */
+    background-image: linear-gradient(to bottom, rgb(239, 248, 190), rgb(248, 252, 248)); /* 上から下へのグラデーション */
+    background-repeat: no-repeat; /* グラデーションを繰り返さない */
+    background-attachment: fixed; /* スクロールしても固定 */
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
