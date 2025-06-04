@@ -120,6 +120,8 @@ padding-bottom: none;
 #kigure{
     border-radius: 2px;
     border: solid 1px #000;
+    background-color: #ffffffaa;
+    background-image: none;
 }
 #kigure p{
     font-size: 1rem;
